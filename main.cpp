@@ -113,7 +113,7 @@ auto launch::thread::main( ) {
 auto main( ) -> int {
     //ShowWindow( GetConsoleWindow( ), SW_SHOW );
     ShowWindow( GetConsoleWindow( ), SW_HIDE );
-	SetConsoleTitleA( "" );
+    SetConsoleTitleA( "" );
 
     console::log( xorstr( "Started thread: main" ) );
 
